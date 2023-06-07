@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    font-family:dancing Nunito;
+margin: 0px;
+padding: 0px;
+color: white;
+}
+
+.grid-container{
+display: grid;
+background-color: rgb(5, 5, 62);
+row-gap: 40px;
+column-gap: 10px;
+grid-template-columns:1fr 1fr 1fr 1fr  ;
+grid-template-rows:auto auto 500px 400px auto;
+grid-template-areas: 
+'navbar navbar navbar navbar'
+'main main sidebar sidebar'
+'main main sidebar sidebar'
+'main main sidebar sidebar'
+'footer footer footer footer'
+' bottomsec bottomsec bottomsec bottomsec'
+
+;
+}
+.grid-item-1{
+    grid-area: navbar;
+    
+    background-color:#9a0c0c ;
+}
+.grid-item-2{
+    grid-area: main;
+    border: 3px solid red;
+    background-image: url(/Tasks/images/campions.jpeg);
+background-size: 650px;
+background-repeat: no-repeat;
+background-position: top left;
+background-position-y: 35px; ;
+
+
+}
+.grid-item-3{
+grid-area: sidebar;
+border: 3px solid red;
+}
+.grid-item-4{
+grid-area: bottomsec;
+border: 3px solid red;
+}
+
+
+.grid-item-6{
+grid-area: footer;
+border: 3px solid red;
+}
+Ul li{
+    list-style: none;
+    display: inline-block;
+    float:left;
+    line-height: 100px;
+    
+    }
+    
+    Ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.55rem;
+    font-family: nunito;
+    padding: 0 35px ;
+    }
+    
+    Ul li a:hover{
+      color: red;
+    }
+    
+    
+    
+    
+    .crest{
+      width: 100px;
+      height: 100px;
+      float: left
+      
+      
+      }
+    .slogan{
+    font-size: 25px;
+    font-family: dancing script;
+    margin-left: 50px;
+    
+    }
+   .partners{
+margin-left: 100px;
+
+   }
+#para1{
+    width: 280px;
+    float: right;
+    font-size: 0.85rem;
+    font-family: nunito;
+    margin-top: 20px;
+    margin-left: 500px;
+
+
+}
+#heading1{
+text-align: center;
+
+}

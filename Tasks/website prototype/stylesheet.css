@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*{
+font-family:dancing Nunito;
+margin: 0px;
+padding: 0px;
+color: rgb(255, 255, 255);
+
+  }
+body{
+  background-color: rgb(5, 5, 62);
+  height: 200vh;
+  
+}
+
+
+  .video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+Ul li{
+list-style: none;
+display: inline-block;
+float:left;
+line-height: 100px;
+
+}
+
+Ul li a{
+display: block;
+text-decoration: none;
+font-size: 1.55rem;
+font-family: nunito;
+padding: 0 30px ;
+}
+
+Ul li a:hover{
+  color: red;
+}
+
+nav{
+  width: 99vw;
+  height: 100px;
+  background-color:#9a0c0c ;
+
+
+
+}
+.crest{
+  width: 100px;
+  height: 100px;
+  float: left
+  
+  
+  }
+.slogan{
+font-size: 25px;
+font-family: dancing script;
+margin-left: 200px;
+
+}
+.login{
+margin-left: 200px;
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+
+
+}
+
+.heading1{
+ text-align: center;
+font-family: nunito;
+font-size: 1.2rem;
+position: absolute;
+margin-left: 300px;
+}
+.heading2{
+font-family: nunito;
+font-size: 1.2rem;
+  margin-left: 325px;
+  margin-bottom: 10px;
+  position: absolute;
+}
+.flex-container .grid-item{
+width: 900px;
+height: 900px;
+margin-top: 20px;
+margin-left: 500px;
+
+}
+.grid-item-1{
+  border: 3px solid #ff0000;
+background-image: url(/Tasks/images/campions.jpeg);
+background-size: 600px;
+background-repeat: no-repeat;
+background-position: top left;
+background-position-y: 40px;
+
+}
+
+.grid-item-2{
+  border: 3px solid #ff0000;
+
+ 
+  
+}
+#para1{
+width: 300px;
+height: 600px;
+float: right;
+font-size: 0.85rem;
+font-family: nunito;
+margin-top: 40px;
+
+margin-left: 500px;
+}
+.para2{
+font-size: 0.85rem;
+font-family: nunito;
+margin-top: 50px;
+}
