@@ -33,7 +33,7 @@ grid-template-areas:
 .grid-item-2{
     grid-area: main;
     border: 3px solid red;
-    background-image: url(/Tasks/images/campions.jpeg);
+    background-image: url(campions.jpeg);
 background-size: 650px;
 background-repeat: no-repeat;
 background-position: top left;
