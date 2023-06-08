@@ -8,13 +8,14 @@ padding: 0px;
 color: white;
 }
 
+
 .grid-container{
 display: grid;
 background-color: rgb(5, 5, 62);
 row-gap: 40px;
 column-gap: 10px;
 grid-template-columns:1fr 1fr 1fr 1fr  ;
-grid-template-rows:auto auto 500px 400px auto;
+grid-template-rows:100px 0px 500px 400px 300px;
 grid-template-areas: 
 'navbar navbar navbar navbar'
 'main main sidebar sidebar'
@@ -27,8 +28,8 @@ grid-template-areas:
 }
 .grid-item-1{
     grid-area: navbar;
-    
     background-color:#9a0c0c ;
+    
 }
 .grid-item-2{
     grid-area: main;
@@ -42,20 +43,21 @@ background-position-y: 35px; ;
 
 }
 .grid-item-3{
-grid-area: sidebar;
+    grid-area: sidebar;
 border: 3px solid red;
 }
 .grid-item-4{
-grid-area: bottomsec;
+    grid-area: bottomsec;
 border: 3px solid red;
 }
 
 
 .grid-item-6{
-grid-area: footer;
+    grid-area: footer;
 border: 3px solid red;
 }
-Ul li{
+
+ul li{
     list-style: none;
     display: inline-block;
     float:left;
@@ -63,15 +65,15 @@ Ul li{
     
     }
     
-    Ul li a{
+    ul li a{
     display: block;
     text-decoration: none;
     font-size: 1.55rem;
     font-family: nunito;
-    padding: 0 40px ;
+    padding: 0px 40px ;
     }
     
-    Ul li a:hover{
+    ul li a:hover{
       color: red;
     }
     
@@ -86,26 +88,112 @@ Ul li{
       
       }
     .slogan{
-    font-size: 25px;
+    width: 200px;
+        font-size: 25px;
     font-family: dancing script;
     margin-left: 50px;
     
     }
-   .partners{
+  .partners{
 
 
-   }
+   }  
+
 #para1{
     width: 280px;
     float: right;
+    position: absolute;
     font-size: 0.85rem;
     font-family: nunito;
     margin-top: 20px;
-    margin-left: 500px;
+    margin-left: 655px;
 
 
 }
 #heading1{
 text-align: center;
 
+}
+#heading2{
+text-align: center;
+
+}
+@media screen and (max-width:415px) {
+    .grid-container{
+        display: grid;
+        background-color: rgb(5, 5, 62);
+        row-gap: 40px;
+        column-gap: 10px;
+        grid-template-columns:1fr 1fr 1fr 1fr  ;
+        grid-template-rows:400px 0px 500px 800px 200px 0px 800px;
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+         'navbar navbar navbar navbar'
+         'navbar navbar navbar navbar'
+         'main main main main'
+          'main main main main'
+          'main main main main'
+          'sidebar sidebar sidebar sidebar'
+          'sidebar sidebar sidebar sidebar'
+          'sidebar sidebar sidebar sidebar'
+         'footer footer footer footer'
+        
+
+
+
+        }
+.grid-item-1{
+    grid-area: navbar;
+    background-color:#9a0c0c ;
+
+}
+    
+    
+    .grid-item-2{
+        grid-area: main;
+        
+        background-image: url(campions.jpeg);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 35px; ;
+    }
+    #para1{
+        width: 350px;
+        font-size: 0.65rem;
+        font-family: nunito;
+        margin-top: 20px;
+        position: relative;
+        margin-top: 575px;
+        margin-right: 15px;
+        
+    
+    
+    }
+    
+   nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    
+
+
+    }
+    ul li a{
+        font-size: 1.25rem;
+       padding: 0px 10px;
+    }
+nav ul li{
+
+}
+
+   .crest{
+    margin-left: 160px;
+    width: 75px;
+    height: 75px;
+   }
+   .slogan{
+ padding-left: 55px;
+   }
 }
